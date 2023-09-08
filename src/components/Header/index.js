@@ -7,7 +7,7 @@ const Header = props => {
 
   const onClickLogout = () => {
     Cookie.remove('jwt_token')
-    history.replace('/login')
+    history.replace('/ebank/login')
   }
 
   return (
